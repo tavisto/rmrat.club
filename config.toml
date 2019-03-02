@@ -1,0 +1,58 @@
+baseurl = "http://rmrat.club"
+languageCode = "en-us"
+title = "Rocy Mountain Rat Club"
+theme = "hello-friend-ng"
+
+[params]
+  dateform        = "Jan 1, 2019"
+  dateformShort   = "Jan 1"
+  dateformNum     = "2019-01-01"
+  dateformNumTime = "2019-01-01 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  description = "Homepage and blog by Djordje Atlialp"
+  keywords = "homepage, blog, science, informatics, development, programming"
+  images = [""]
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+
+[languages]
+  [languages.en]
+    title = "Rocy Mountain Rat Club"
+    subtitle = "The Riders Associatation of Triumph based in the Rocky Mountain / Front Rage area."
+    keywords = ""
+    copyright = ""
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "rmrat"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  # You can create a language based menu
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "showcase"
+        name = "Showcase"
+        url = "/showcase"
+
+# And you can even create generic menu
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
