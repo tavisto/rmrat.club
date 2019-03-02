@@ -1,6 +1,6 @@
 baseurl = "http://rmrat.club"
 languageCode = "en-us"
-title = "Rocy Mountain Rat Club"
+title = "Rocky Mountain Rat Club"
 theme = "hello-friend-ng"
 
 [params]
@@ -21,7 +21,7 @@ theme = "hello-friend-ng"
 
 [languages]
   [languages.en]
-    title = "Rocy Mountain Rat Club"
+    title = "Rocky Mountain Rat Club"
     subtitle = "The Riders Associatation of Triumph based in the Rocky Mountain / Front Rage area."
     keywords = ""
     copyright = ""
